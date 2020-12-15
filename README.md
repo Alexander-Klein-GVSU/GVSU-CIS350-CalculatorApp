@@ -7,7 +7,7 @@ The Math Multi Tool is a math tool geared towards college students. It has many 
 * [Alexander Klein](https://github.com/Alexander-Klein-GVSU/CIS350-HW2-Klein)
 * [Kameron Freeman](https://github.com/Freeman6523/CIS350-HW2-Freeman)
 * [Jacob Lockwood](https://github.com/Lockwood0309/CIS350-HW2-Lockwood)
-* Donovan Heynen
+* [Donovan Heynen](https://github.com/heynend/CIS350-HW2-Heynen)
 
 ## Prerequisites
 * Install [Andriod Studio](https://developer.android.com/studio)
