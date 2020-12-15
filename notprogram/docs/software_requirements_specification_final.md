@@ -10,13 +10,13 @@ In each section of this portion, each header represents one feature of the app. 
 ### Calculator App
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR1 | User shall be able to get to every part of the app through basic navigation. | TC1 |
+| FR1 | User shall be able to get to every part of the app through basic navigation. | N/A |
 ### Step-by-Step
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
 | FR2 | Step-by-step shall allow users to input any number they want into input boxes. | TC6 |
-| FR3 | Step-by-step shall output answers in a cohesive way so the user can understand how to do the calculation themselves. | TBD |
-| FR4 | User shall be able to go back to other functions of the app from the step-by-step portion. | TC1,TC2 |
+| FR3 | Step-by-step shall output answers in a cohesive way so the user can understand how to do the calculation themselves. | N/A |
+| FR4 | User shall be able to go back to other functions of the app from the step-by-step portion. | N/A |
 ### Basic Calculator
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
@@ -25,30 +25,30 @@ In each section of this portion, each header represents one feature of the app. 
 ### Menu
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR7 | User shall be able to press buttons on the menu screen to access different parts of the code. | TC1 |
+| FR7 | User shall be able to press buttons on the menu screen to access different parts of the code. | TC13 |
 ### Graphing Calculator
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR8 | The graphing calculator shall solve and graph functions inputted by user. | TC1 |
-| FR9 | The graphing calculator shall display solutions to systems of equations when the user enters multiple functions. | TBD |
-| FR10 | The graphing calculator shall zoom in and out if the user chooses. | TC1,TC2 |
+| FR8 | The graphing calculator shall solve and graph functions inputted by user. | TC14 |
+| FR9 | The graphing calculator shall display solutions to systems of equations when the user enters multiple functions. | N/A |
+| FR10 | The graphing calculator shall zoom in and out if the user chooses. | N/A |
 ### Calculus
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
 | FR11 | User shall input a function into a text-box. | TC1 |
-| FR12 | User shall select a calculus option (ex: 1st derivative, nth derivative). | TBD |
-| FR13 | User shall be able to click on calculus option in menu to go to calculus calculator. | TC1,TC2 |
-| FR14 | User shall be able to click the simplify button to simplify small equations. | TC4 |
+| FR12 | User shall select a calculus option (ex: 1st derivative, nth derivative). | TC5 |
+| FR13 | User shall be able to click on calculus option in menu to go to calculus calculator. | TC11 |
+| FR14 | User shall be able to click the simplify button to simplify small equations. | N/A |
 ### Hypergeometric Calculator
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR15 | User shall be able to calculate the probability of getting a card within a certain number of turns. | TBD |
+| FR15 | User shall be able to calculate the probability of getting a card within a certain number of turns. | TC4 |
 
 ## Non-Functional Requirements
 ### Calculator App
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR1 | App shall have fast and seamless transitions from one part of the app to another. | TC16 |
+| NFR1 | App shall have fast and seamless transitions from one part of the app to another. | TC15, TC16 |
 | NFR2 | App shall be allowed to run on many different android devices. | TC17 |
 ### Step-by-Step
 | ID | Requirement | Test Cases |
@@ -57,27 +57,27 @@ In each section of this portion, each header represents one feature of the app. 
 ### Basic Calculator
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR4 | Program shall be able to detect if an input is valid or invalid. | TC4 |
+| NFR4 | Program shall be able to detect if an input is valid or invalid. | N/A |
 | NFR5 | Basic calculator shall have a shared display screen for user inputs and outputs. | TC19 |
 ### Menu
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR6 | Menu shall seamlessly move to and from different section of the program. | TC4 |
+| NFR6 | Menu shall seamlessly move to and from different section of the program. | N/A |
 ### Calculus
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR7 | An output display shall update with a solution when a valid function is entered along with a calculus option being selected. | TBD |
-| NFR8 | The app once in the calculus portion shall be able to go back to the main menu. | TC6 |
+| NFR7 | An output display shall update with a solution when a valid function is entered along with a calculus option being selected. | TC2 |
+| NFR8 | The app once in the calculus portion shall be able to go back to the main menu. | TC12 |
 ### Graphing Calculator
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR9 | The graphing calculator shall graph separate lines in different colors. | TC4 |
+| NFR9 | The graphing calculator shall graph separate lines in different colors. | N/A |
 | NFR10 | The graphing calculator shall look clean. | TC20 |
 ### Hypergeometric Calculator
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR11 | The hypergeometric calculator shall be accruate and polished. | TC4 |
-| NFR12 | The hypergeometric calculator shall be easy to use. | TBD |
+| NFR11 | The hypergeometric calculator shall be accruate and polished. | N/A |
+| NFR12 | The hypergeometric calculator shall be easy to use. | N/A |
 
 # Test Specification
 This portion of the document aims to show the number of tests that have been done throughout the project that test the truthfulness and accuracy of our above requirements.
@@ -164,7 +164,7 @@ This portion of the document aims to show the number of tests that have been don
     
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC20 | The graphing calculator should easily graph basic funtions. | Enter graphing calculator, input 1x+2, press "+", press "Graph". | 1x+2 | A graph of y = x + 2. | A graph of y = x + 2. | Pass | NFR12 |
+| TC20 | The graphing calculator should easily graph basic funtions. | Enter graphing calculator, input 1x+2, press "+", press "Graph". | 1x+2 | A graph of y = x + 2. | A graph of y = x + 2. | Pass | NFR10 |
     
     
 # Software Artifacts
