@@ -26,6 +26,6 @@ The Math Multi Tool is a math tool geared towards college students. It has many 
 	* Phone must be in developer mode [Tutorial](https://www.samsung.com/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/)
 ## Run Instructions
 
-1 Once the repo is pulled, you may have to go to File -> Invalidate Cache/Restart in order for it to work.
-2 Make sure the main activity is the program that will run first (should be default).
-3 With the project open in Android studio select the play button and the app should open on the device. 
+1. Once the repo is pulled, you may have to go to File -> Invalidate Cache/Restart in order for it to work.
+2. Make sure the main activity is the program that will run first (should be default).
+3. With the project open in Android studio select the play button and the app should open on the device. 
