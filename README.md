@@ -18,8 +18,8 @@ The Math Multi Tool is a math tool geared towards college students. It has many 
 
 * Emulator (If you have an Android device skip this step)
 	* With the project open select Tools and then AVD Manager
-		* Select create a virtual device
-			* Select any phone and then select next, next and finish.
+		* Select create a virtual device.
+			* Select any phone and then select next, next and finish to download.
 
 * Android device (If you have a phone)
 	* Must have a phone charger and phone plugged in
