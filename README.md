@@ -23,7 +23,7 @@ The Math Multi Tool is a math tool geared towards college students. It has many 
 
 * Android device (If you have a phone)
 	* Must have a phone charger and phone plugged in
-	* Phone must be in developer mode [Tutorial](https://www.samsung.com/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/)
+	* Phone must be in developer mode. [Click for Tutorial](https://www.samsung.com/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/)
 ## Run Instructions
 
 1. Once the repo is pulled, you may have to go to File -> Invalidate Cache/Restart in order for it to work.
