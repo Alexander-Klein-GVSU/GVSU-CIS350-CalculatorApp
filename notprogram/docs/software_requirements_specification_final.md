@@ -96,7 +96,7 @@ This portion of the document aims to show the number of tests that have been don
     
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC4 | calculate toe odds of drawing a card | Must be in hypergeometric portion, then enter # cards, # of copies, and # of draws. | 52, 4, 1 | 7.69 | 7.69 | pass | FR15 |
+| TC4 | Calculate the odds of drawing a card | Must be in hypergeometric portion, then enter # cards, # of copies, and # of draws. | 52, 4, 1 | 7.69 | 7.69 | pass | FR15 |
     
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
